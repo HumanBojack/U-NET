@@ -5,7 +5,11 @@
 |:-:|
 |*The basic unet architecture*[^1]|
 
-## High level TensorFlow model
+## Dataset
+The dataset I will be using is the *2018 Data Science Bowl*[^3] dataset, used to detect nuclei.
+
+## Models
+### High level TensorFlow model
 I started by doing a high level model by following the DigitalSreeni tutorial[^2].
 However, he choose to use a slightly modified architecture that I will follow in this high level model.
 
@@ -13,6 +17,8 @@ However, he choose to use a slightly modified architecture that I will follow in
 |:-:|
 |*The slightly modified unet architecture*|
 
+## Metrics
+Since I didn't know how to **evaluate** *semantic segmentation* models, I searched and found an article[^4].
 
 ***
 
@@ -32,3 +38,5 @@ Why does the dropout change on the deeper layers?
 
 [^1]: [Unet paper](https://arxiv.org/pdf/1505.04597.pdf)
 [^2]: [DigitalSreeni / PythonForMicroscopists video series](https://www.youtube.com/playlist?list=PLZsOBAyNTZwbR08R959iCvYT3qzhxvGOE)
+[^3]: https://www.kaggle.com/competitions/data-science-bowl-2018/overview
+[^4]: [TowardsDataScience - Metrics to Evaluate your Semantic Segmentation Model by Ekin Tiu](https://towardsdatascience.com/metrics-to-evaluate-your-semantic-segmentation-model-6bcb99639aa2)
