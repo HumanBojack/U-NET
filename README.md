@@ -35,6 +35,7 @@ Questions:
 I don't get why we have two convolutions of the same size one after the other on each step.
 No he_normal kernel initializer / activation on conv2dTranspose?
 Why does the dropout change on the deeper layers?
+Should we change the activation function on the last layer instead of having a "filter" after the prediction?
 
 [^1]: [Unet paper](https://arxiv.org/pdf/1505.04597.pdf)
 [^2]: [DigitalSreeni / PythonForMicroscopists video series](https://www.youtube.com/playlist?list=PLZsOBAyNTZwbR08R959iCvYT3qzhxvGOE)
